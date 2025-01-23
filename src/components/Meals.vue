@@ -9,7 +9,6 @@
 
 <script setup>
 import MealItem from './MealItem.vue';
-import { defineProps } from 'vue';
 
 const { meals } = defineProps({
   meals: {
